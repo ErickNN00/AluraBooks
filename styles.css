@@ -2,6 +2,7 @@
 
 :root {
     --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 }
 
 h1 {
-    background-color: white;
+    background-color: var(--branco);
 }
 
 .lista-menu {
@@ -23,7 +24,7 @@ h1 {
 }
 
 .cabecalho {
-    background: linear-gradient(170deg, #5593c0, white);
+    background: linear-gradient(170deg, #5593c0, var(--cor-de-fundo));
     display: flex;
     justify-content: space-between;
     align-items: center;
