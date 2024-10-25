@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="reset.css">
 </head>
 
@@ -12,13 +12,12 @@
     <header class="cabecalho">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu">
-                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            <label for="menu" class="parte-esquerda">
+                <span class="cabecalho__menu-hamburguer container__imagem" style="
+"></span>
                 
-            <img src="img/Logo.svg" alt="Logo da AluraBooks">
-            <a href="#"><img src="img/Favoritos.svg"></a>
-            <a href="#"><img src="img/Compras.svg"></a>
-            <a href="#"><img src="img/Usuario.svg"></a>
+            <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+            
                 
             </label><ul class="lista-menu">
                 <li class="lista-menu__titulo">Categorias</li>
@@ -29,6 +28,11 @@
                 <li class="lista-menu__item">Design &amp; UX</li>
             </ul>
         </div>
+    <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" class="container__imagem"></a>
+            <a href="#"><img src="img/Compras.svg" class="container__imagem"></a>
+            <a href="#"><img src="img/Usuario.svg" class="container__imagem"></a>
+    </div>
             
     </header>
 
