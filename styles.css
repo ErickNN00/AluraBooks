@@ -12,10 +12,21 @@ h1 {
     background-color: white;
 }
 
-.lista-menu{
+.lista-menu {
     display: none;
+    position: absolute;
+    top: 100%
 } 
 
-.container__botao:checked~.lista-menu{
+.container__botao:checked~.lista-menu {
     display: block;
+}
+
+.cabecalho {
+    background: linear-gradient(170deg, #5593c0, white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 5px;
 }
