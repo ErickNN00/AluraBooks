@@ -6,3 +6,13 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%
+}
+
+.container__imagem {
+    padding: 1em;
+}
