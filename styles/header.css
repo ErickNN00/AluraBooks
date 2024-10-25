@@ -17,4 +17,25 @@
     padding: 1em;
 }
 
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.cabecalho {
+    background: linear-gradient(170deg, #5593c0, var(--cor-de-fundo));
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.parte-esquerda {
+    display: flex;
+    align-items: center;
+}
 
