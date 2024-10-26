@@ -4,6 +4,7 @@
     --cor-de-fundo: #EBECEE;
     --branco: #ffffff;
     --laranja: #fc7423;
+    --azul-degrade: linear-gradient:(0deg, blue, red);
 }
 
 body {
