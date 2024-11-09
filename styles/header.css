@@ -23,7 +23,7 @@
 }
 
 .cabecalho {
-    background: linear-gradient(170deg, #5593c0, var(--cor-de-fundo));
+    background: var(--azul-degrade);
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -46,9 +46,13 @@
 }
 
 .lista-menu__link {
-    background: linear-gradient(0deg, #000000, #02528d);
-    -webkit-background-clip: text;
+    background: var(--azul);
     -webkit-text-fill-color: #00000000;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
 }
