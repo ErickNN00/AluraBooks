@@ -4,7 +4,9 @@
     --cor-de-fundo: #EBECEE;
     --branco: #ffffff;
     --laranja: #fc7423;
-    --azul-degrade: linear-gradient:(0deg, blue, red);
+    --azul: #002f52;
+    --azul-degrade: linear-gradient(170deg, #5593c0, transparent);
+    --fonte-principal: "barlow-regular";
 }
 
 body {
