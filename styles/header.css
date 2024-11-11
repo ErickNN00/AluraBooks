@@ -8,10 +8,15 @@
 }
 
 .lista-menu {
+    background: linear-gradient(90deg, var(--branco), transparent);
+    border-bottom: solid 1px;
+    border-image: linear-gradient(to right, #002f52, transparent)1;
     display: none;
     position: absolute;
     top: 100%;
     width: 60vh;
+    font-family: "Barlow";
+    font-weight: 500;
 }
 
 .container__imagem {
@@ -42,7 +47,13 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0.8em;
+}
 
+.lista-menu__item {
+    padding: 1em;
 }
 
 .lista-menu__link {
@@ -54,5 +65,4 @@
 
 .lista-menu__titulo,
 .lista-menu__item {
-    padding: 1em;
 }
