@@ -28,7 +28,7 @@
 }
 
 .cabecalho {
-    background: var(--azul-degrade);
+    background: var(--azul-claro-gradiente);
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -66,3 +66,4 @@
 .lista-menu__titulo,
 .lista-menu__item {
 }
+
