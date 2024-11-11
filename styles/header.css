@@ -15,7 +15,7 @@
     position: absolute;
     top: 100%;
     width: 60vh;
-    font-family: "Barlow";
+    font-family: var(--fonte-principal);
     font-weight: 500;
 }
 

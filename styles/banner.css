@@ -1,21 +1,23 @@
-@import url("styles/header.css");
-@import url("styles/banner.css");
+.banner {
+    background: linear-gradient(157.5deg, #002f52, #5694c0);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 0em;
+    font-family: var(--fonte-principal);
+  }
 
-:root {
-    --cor-de-fundo: #cfd1d7;
-    --branco: #ffffff;
-    --laranja: #fc7423;
-    --azul: #002f52;
-    --azul-claro: #5593c0;
-    --azul-claro-gradiente: linear-gradient(180deg, var(--azul-claro), transparent);
-    --fonte-principal: "Barlow";
+.banner__titulo {
+  font-size: 2em;
+  font-weight: 700
 }
 
-body {
-    background-color: var(--cor-de-fundo);
-
+.banner__texto {
+  font-size: 1.25em;
+  font-weight: 500;
+  margin: 1em 0;
 }
 
-h1 {
-    background-color: var(--branco);
+.banner__pesquisa::placeholder {
+  font-family: var(--fonte-principal);
+  color: var(--cor-de-fundo);
 }
