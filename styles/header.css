@@ -27,8 +27,12 @@
     display: block;
 }
 
+.container__botao {
+    display: none;
+}
+
 .cabecalho {
-    background: var(--azul-claro-gradiente);
+    background: var(--azul-gradiente);
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -63,7 +67,5 @@
     text-transform: uppercase;
 }
 
-.lista-menu__titulo,
-.lista-menu__item {
-}
+
 
