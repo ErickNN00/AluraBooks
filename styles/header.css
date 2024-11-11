@@ -32,7 +32,11 @@
 }
 
 .cabecalho {
+<<<<<<< HEAD
+    background: var(--azul-claro-gradiente);
+=======
     background: var(--azul-gradiente);
+>>>>>>> 3efdc6024e4652d81d99eb8b0acc0f338b4587c4
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -66,6 +70,3 @@
     background-clip: text;
     text-transform: uppercase;
 }
-
-
-

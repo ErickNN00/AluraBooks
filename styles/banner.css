@@ -1,6 +1,21 @@
-.banner {
-    background: var(--azul-degrade);
-    color: var(--branco);
-    text-align: center;
-    padding: 2.5em 2em;
-  }
+@import url("styles/header.css");
+@import url("styles/banner.css");
+
+:root {
+    --cor-de-fundo: #cfd1d7;
+    --branco: #ffffff;
+    --laranja: #fc7423;
+    --azul: #002f52;
+    --azul-claro: #5593c0;
+    --azul-claro-gradiente: linear-gradient(180deg, var(--azul-claro), transparent);
+    --fonte-principal: "Barlow";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+
+}
+
+h1 {
+    background-color: var(--branco);
+}
