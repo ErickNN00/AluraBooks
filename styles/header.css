@@ -5,6 +5,7 @@
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
 }
 
 .lista-menu {
@@ -26,6 +27,7 @@
 .container__botao:checked~.lista-menu {
     display: block;
 }
+
 
 .container__botao {
     display: none;
@@ -61,7 +63,7 @@
 }
 
 .lista-menu__link {
-    background: var(--azul);
+    background: #002f52;
     -webkit-text-fill-color: #00000000;
     background-clip: text;
     text-transform: uppercase;

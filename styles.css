@@ -4,16 +4,15 @@
 :root {
     --cor-de-fundo: #cfd1d7;
     --branco: #ffffff;
-    --laranja: #fc7423;
+    --laranja: #fc6921;
     --azul: #002f52;
-    --azul-claro: #5593c0;
-    --azul-claro-gradiente: linear-gradient(180deg, var(--azul-claro), transparent);
+    --azul-claro-gradiente: linear-gradient(180deg, #5593c0, #5b96c178);
     --fonte-principal: "Barlow";
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    
+
 }
 
 h1 {
