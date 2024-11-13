@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 </head>
 
@@ -57,9 +59,44 @@
     <input type="search" class="banner__pesquisa" placeholder="Qual será a sua próxima leitura?">
   </section>
 
-  <Section class="carrossel">
+  <section class="carrossel">
     <h2 class="carrossel__titulo">Novos lançamentos</h2>
-  </Section>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="img/Apachekafka.svg" alt="Livro sobre apache kafka e spring boot da alura books">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Liderança.svg" alt="Livro sobre liderança em design design da alura books">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Javascript.svg" alt="Livro sobre javascript assertivo da alura books">
+        </div>
+        <div class="swiper-slide">
+          <img src="Guia Front-end.svg" alt="Livro Guia front end">
+        </div>
+        <div class="swiper-slide">
+          <img src="Portugol.svg" alt="Livro sobre portugol">
+        </div>
+        <div class="swiper-slide">
+          <img src="Acessibilidade.svg" alt="livro sobre acessibilidade">
+        </div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+  </section>
 
 
 
@@ -67,6 +104,8 @@
 
 
 
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
