@@ -9,6 +9,7 @@
     --azul: #002f52;
     --azul-claro-gradiente: linear-gradient(180deg, #5593c0, #5b96c178);
     --fonte-principal: "Barlow";
+    --sombra: #00000080;
 }
 
 body {
