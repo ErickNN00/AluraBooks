@@ -4,6 +4,7 @@
     text-align: center;
     padding: 2.5em 1em;
     font-family: var(--fonte-principal);
+    box-shadow: inset 4px 3px 20px 1px var(--sombra);
 }
 
 .banner__titulo {
