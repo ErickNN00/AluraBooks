@@ -14,13 +14,20 @@
     display: flex;
     gap: 15px;
     overflow-x: auto;
-    margin: 25px 10px 30px 10px;
+    margin: 15px 18px 30px 18px;
     padding: 0 50px 15px 50px;
 }
 
 .carrossel__imagem {
-    border: solid 2px var(--branco);
+    border: solid 2px var(--laranja);
     border-radius: 50px;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+}
+
+.carrossel__imagem:hover {
+    border: solid 2px var(--azul);
+    box-shadow: 2px 3px 7px 2px var(--sombra);
 }
 
 .carrossel__espaco {
@@ -30,16 +37,16 @@
 
 .espaco-transparente-1 {
     background: linear-gradient(to right, var(--cor-de-fundo), transparent);
-    padding: 180px 40px;
+    padding: 180px 26px;
     position: absolute;
-    right: 94%;
+    right: 95.5%;
     top: 375px;
 }
 
 .espaco-transparente-2 {
-    padding: 180px 40px;
+    padding: 180px 26px;
     position: absolute;
-    left: 94%;
+    left: 95.5%;
     top: 375px;
     background: linear-gradient(to left, var(--cor-de-fundo), transparent);
 }
@@ -49,4 +56,6 @@
     box-shadow: inset 3px 4px 20px 0px var(--sombra);
     margin: 15px 30px 30px 30px;
     padding: 2em 3em 3em 3em;
+    border: solid 2px var(--azul);
+    border-radius: 20px;
 }
