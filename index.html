@@ -11,6 +11,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+    });
+  </script>
 </head>
 
 <body>
@@ -76,7 +82,7 @@
         <div class="descricao">
           <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
           <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-          <p class="descricao__titulo">
+          <p class="descricao__texto">
             Construindo uma aplicação integrada com a plataforma do Google.
           </p>
         </div>
@@ -84,8 +90,12 @@
       </div>
       <div class="card__botoes">
         <ul class="botoes">
-          <li class="botoes__item"></li>
-          <li class="botoes__item"></li>
+          <li class="botoes__item">
+            <img src="img/Favoritos.svg" alt="Favoritar livro">
+          </li>
+          <li class="botoes__item">
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras">
+          </li>
         </ul>
         <a href="#" class="botoes__ancora">Saiba mais</a>
       </div>

@@ -55,7 +55,35 @@
     background: var(--branco);
     box-shadow: inset 3px 4px 20px 0px var(--sombra);
     margin: 15px 30px 30px 30px;
-    padding: 2em 3em 3em 3em;
+    padding: 2em 5em 3em 5em;
     border: solid 2px var(--azul);
     border-radius: 20px;
+    font-family: var(--fonte-principal);
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricao__titulo {
+    font-size: 20px;
+    margin: 0 0 1em 0;
+    font-weight: 700;
+    color: var(--laranja);
+    text-transform: uppercase;
+}
+
+.descricao__titulo-livro {
+    font-size: 30px;
+    margin: 0 0 0.5em 0;
 }
