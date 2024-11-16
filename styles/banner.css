@@ -46,7 +46,7 @@
     border-radius: 20px;
     border-left: transparent;
     border-right: transparent;
-    background: radial-gradient(circle at center, #002f5233, transparent);
+    background: radial-gradient(circle at center, #002f5280, transparent);
 }
 
 .banner__pesquisa:hover::placeholder {

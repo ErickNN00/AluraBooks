@@ -62,9 +62,16 @@
     padding: 1em;
 }
 
+.lista-menu__item:hover {
+    background: linear-gradient(to right, var(--azul), transparent);
+}
+
+.lista-menu__item:hover>.lista-menu__link {
+    color: var(--branco);
+}
+
 .lista-menu__link {
-    background: #002f52;
-    -webkit-text-fill-color: #00000000;
-    background-clip: text;
+    text-decoration: none;
     text-transform: uppercase;
+    color: var(--azul);
 }
