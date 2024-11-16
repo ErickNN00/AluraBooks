@@ -1,25 +1,26 @@
 .carrossel__titulo {
-  color: var(--laranja);
-  background: var(--branco);
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 770;
-  padding: 1.25em 0 0.75em 0;
-  font-family: var(--fonte-principal);
+    color: var(--laranja);
+    background: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 770;
+    padding: 1.25em 0 0.75em 0;
+    font-family: var(--fonte-principal);
+    box-shadow: 0px 4px 10px var(--sombra);
 }
 
-.carrossel__imagens  {
-  display: flex;
-  gap: 15px;
-  overflow-x: auto;
-  margin: 25px 10px 30px 10px;
-  padding: 0 50px 15px 50px;
+.carrossel__imagens {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    margin: 25px 10px 30px 10px;
+    padding: 0 50px 15px 50px;
 }
 
 .carrossel__imagem {
-  border: solid 2px var(--branco);
-  border-radius: 50px;
+    border: solid 2px var(--branco);
+    border-radius: 50px;
 }
 
 .carrossel__espaco {
@@ -32,13 +33,20 @@
     padding: 180px 40px;
     position: absolute;
     right: 94%;
-    bottom: 9.5%;
+    top: 375px;
 }
 
 .espaco-transparente-2 {
     padding: 180px 40px;
     position: absolute;
     left: 94%;
-    bottom: 9.5%;
+    top: 375px;
     background: linear-gradient(to left, var(--cor-de-fundo), transparent);
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: inset 3px 4px 20px 0px var(--sombra);
+    margin: 15px 30px 30px 30px;
+    padding: 2em 3em 3em 3em;
 }
