@@ -7,13 +7,13 @@
     --branco: #ffffff;
     --laranja: #fc6921;
     --azul: #002f52;
-    --azul-claro-gradiente: linear-gradient(180deg,#5593c0, #5b96c178);
+    --azul-claro-gradiente: linear-gradient(180deg, #5593c0, #5b96c178);
     --fonte-principal: "Barlow";
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    
+
 }
 
 h1 {

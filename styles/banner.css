@@ -1,53 +1,53 @@
 .banner {
-  background: linear-gradient(157.5deg, #002f52, #5694c0);
-  color: var(--branco);
-  text-align: center;
-  padding: 2.5em 1em;
-  font-family: var(--fonte-principal);
+    background: linear-gradient(157.5deg, #002f52, #5694c0);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 1em;
+    font-family: var(--fonte-principal);
 }
 
 .banner__titulo {
-  font-size: 30px;
-  font-weight: 700
+    font-size: 30px;
+    font-weight: 700
 }
 
 .banner__texto {
-  font-size: 20px;
-  font-weight: 500;
-  margin: 1em 0;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1em 0;
 }
 
 .banner__pesquisa {
-  color: var(--branco);
-  background: transparent;
-  padding: 1em;
-  width: 50%;
-  border: solid 2px var(--branco);
-  border-radius: 20px;
-  border-left: transparent;
-  border-right: transparent;
-  border-style: solid;
-  font-family: var(--fonte-principal);
-  font-size: 16px;
-  font-weight: 500;
+    color: var(--branco);
+    background: transparent;
+    padding: 1em;
+    width: 50%;
+    border: solid 2px var(--branco);
+    border-radius: 20px;
+    border-left: transparent;
+    border-right: transparent;
+    border-style: solid;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .banner__pesquisa::placeholder {
-  font-family: var(--fonte-principal);
-  color: var(--cor-de-fundo);
-  text-align: center;
-  background: url("../img/Lupa.svg") no-repeat;
-  background-position: 1em;
+    font-family: var(--fonte-principal);
+    color: var(--cor-de-fundo);
+    text-align: center;
+    background: url("../img/Lupa.svg") no-repeat;
+    background-position: 1em;
 }
 
 .banner__pesquisa:hover {
-  border: solid 2px var(--laranja);
-  border-radius: 20px;
-  border-left: transparent;
-  border-right: transparent;
-  background: radial-gradient(circle at center, #002f5233, transparent);
+    border: solid 2px var(--laranja);
+    border-radius: 20px;
+    border-left: transparent;
+    border-right: transparent;
+    background: radial-gradient(circle at center, #002f5233, transparent);
 }
 
 .banner__pesquisa:hover::placeholder {
-  color: var(--branco);
+    color: var(--branco);
 }
