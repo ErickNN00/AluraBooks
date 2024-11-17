@@ -3,5 +3,8 @@ hr {
 }
 
 .rodape {
-
+    background: var(--branco);
+    padding: 1em 2em;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
 }

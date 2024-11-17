@@ -1,7 +1,7 @@
 .contato {
     background: var(--branco);
     margin: 3em 0 0 0;
-    padding: 3em 2em 4em 2em;
+    padding: 3em 2em;
     font-family: var(--fonte-principal);
 }
 
@@ -14,7 +14,7 @@
 
 .contato__texto {
     font-size: 17.5px;
-    color: var(--azul);
+    /* color: var(--azul); */
     padding: 0 0 1em 0;
 }
 
