@@ -37,16 +37,16 @@
 
 .espaco-transparente-1 {
     background: linear-gradient(to right, var(--cor-de-fundo), transparent);
-    padding: 180px 26px;
+    padding: 180px 64px;
     position: absolute;
-    right: 95.5%;
+    right: 89%;
     top: 375px;
 }
 
 .espaco-transparente-2 {
-    padding: 180px 26px;
+    padding: 180px 64px;
     position: absolute;
-    left: 95.5%;
+    left: 89%;
     top: 375px;
     background: linear-gradient(to left, var(--cor-de-fundo), transparent);
 }
