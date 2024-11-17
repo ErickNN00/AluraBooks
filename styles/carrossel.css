@@ -105,7 +105,7 @@
 }
 
 .botoes__ancora {
-    background: linear-gradient(157.5deg, #002f52, #5694c0);
+    background: var(--azul-gradiente);
     color: var(--branco);
     font-size: 20px;
     display: flex;

@@ -1,3 +1,45 @@
 .topicos {
-    
+    background: var(--azul-gradiente);
+    box-shadow: inset 3px 4px 20px 0px var(--sombra);
+    margin: 15px 30px 30px 30px;
+    padding: 2em 5em 3em 5em;
+    border: solid 2px var(--laranja);
+    border-radius: 20px;
+    font-family: var(--fonte-principal);
+}
+
+.topicos__titulo {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--branco);
+    margin: 0 0 1.25em 0;
+}
+
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em 0 0 0;
+}
+
+.topicos__item {
+    display: flex;
+    margin: 0 1em 1em 1em;
+}
+
+.topicos__link {
+    background: linear-gradient(157.5deg, #ffffff, #cfd1d7);
+    color: var(--azul);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1em 4em;
+    border-radius: 100px;
+    box-shadow: inset -2px -2px 5px 0px var(--sombra);
+    border: solid 2px var(--azul);
+}
+
+.topicos__link:hover {
+    background: var(--azul-claro-gradiente);
+    color: var(--branco);
+    border: solid 2px var(--branco);
 }
