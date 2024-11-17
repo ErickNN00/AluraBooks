@@ -37,16 +37,16 @@
 
 .espaco-transparente-1 {
     background: linear-gradient(to right, var(--cor-de-fundo), transparent);
-    padding: 180px 64px;
+    padding: 180px 26px;
     position: absolute;
-    right: 89%;
+    right: 94.25%;
     top: 375px;
 }
 
 .espaco-transparente-2 {
-    padding: 180px 64px;
+    padding: 180px 26px;
     position: absolute;
-    left: 89%;
+    left: 94.25%;
     top: 375px;
     background: linear-gradient(to left, var(--cor-de-fundo), transparent);
 }
@@ -105,7 +105,7 @@
 }
 
 .botoes__ancora {
-    background: var(--azul-gradiente);
+    background: linear-gradient(157.5deg, #002f52, #5694c0);
     color: var(--branco);
     font-size: 20px;
     display: flex;
