@@ -1,28 +1,30 @@
-.contato {
-    background: var(--branco);
-    margin: 3em 0 0 0;
-    padding: 3em 2em 4em 2em;
+.banner {
+    background: var(--azul-gradiente);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 1em;
+    font-family: var(--fonte-principal);
+    box-shadow: inset 4px 3px 20px 1px var(--sombra);
 }
 
-.contato__titulo {
-    font-size: 22.5px;
-    font-weight: 600;
-    color: var(--azul);
-    padding: 0 0 0.75em 0;
+.banner__titulo {
+    font-size: 30px;
+    font-weight: 700
 }
 
-.contato__texto {
-    font-size: 17.5px;
-    color: var(--azul);
-    padding: 0 0 1em 0;
+.banner__texto {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1em 0;
 }
 
-.contato__email {
-    color: var(--azul);
-    border: solid 2px var(--azul);
-    border-radius: 20px;
+.banner__pesquisa {
+    color: var(--branco);
+    background: transparent;
     padding: 1em;
     width: 50%;
+    border: solid 2px var(--branco);
+    border-radius: 20px;
     border-left: transparent;
     border-right: transparent;
     border-style: solid;
@@ -31,22 +33,22 @@
     font-weight: 500;
 }
 
-.contato__email::placeholder {
+.banner__pesquisa::placeholder {
     font-family: var(--fonte-principal);
-    color: var(--azul);
+    color: var(--cor-de-fundo);
     text-align: center;
-    background: url("../img/Email.svg") no-repeat;
+    background: url("../img/Lupa.svg") no-repeat;
     background-position: 1em;
 }
 
-.contato__email:hover {
-    color: var(--azul);
+.banner__pesquisa:hover {
     border: solid 2px var(--laranja);
+    border-radius: 20px;
     border-left: transparent;
     border-right: transparent;
-    background: radial-gradient(circle at center, #e258121a, transparent);
+    background: radial-gradient(circle at center, #002f5280, transparent);
 }
 
-.contato__email:hover::placeholder {
-    color: var(--laranja);
+.banner__pesquisa:hover::placeholder {
+    color: var(--branco);
 }
