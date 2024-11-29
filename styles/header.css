@@ -75,3 +75,25 @@
     text-transform: uppercase;
     color: var(--azul);
 }
+
+.container__titulo {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    /* Estilos para tablets */
+    
+    .container__titulo {
+        display: block;
+        font-family: var(--fonte-secundaria);
+        font-weight: 600;
+        font-size: 30px;
+        background: transparent;
+        color: var(--azul);
+    }
+
+    .container__titulo--negrito {
+        font-weight: 800;
+        font-size: 32.5px;
+    }
+}
