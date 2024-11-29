@@ -56,6 +56,8 @@
     font-weight: 600;
     font-size: 20px;
     padding: 0.8em;
+    -
+    webkit: none;
 }
 
 .lista-menu__item {
@@ -95,5 +97,14 @@
     .container__titulo--negrito {
         font-weight: 800;
         font-size: 32.5px;
+    }
+
+    .opcoes {
+        display: flex;
+    }
+
+    .opcoes__item {
+        padding: 0 1em;
+        text-transform: uppercase;
     }
 }
