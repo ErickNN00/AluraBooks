@@ -127,3 +127,14 @@
     margin: 0 1em 0.5em 1em;
     scale: 1.25;
 }
+
+@media screen and (min-width: 1320px) {
+    .espaco-transparente-1 {
+        padding: 180px 30px;
+        right: 95%;
+    }
+    .espaco-transparente-2 {
+        padding: 180px 30px;
+        left: 95%;
+    }
+}
